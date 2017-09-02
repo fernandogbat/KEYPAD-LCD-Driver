@@ -121,7 +121,7 @@ void delayMs(int n)
             {}  /* do nothing for 1 ms */
 }
 
-/* delay n microseconds (16 MHz CPU clock) */
+/* pseudo delay n microseconds (16 MHz CPU clock) */
 void delayUs(int n)
 {
     int i, j;
